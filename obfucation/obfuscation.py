@@ -86,7 +86,7 @@ def check_file(file_path):
         if name_of_file != 'R.java' and (check_filename_rules(name_of_file) or binary_search(list_char,0,len(list_char)-1, name_of_file) != -1):
 
             num_of_obfuscated_filename += 1
-            list_of_obfuscated.append(file_path+"\n")
+            list_of_obfuscated.append(name_of_file+"\n")
         
         
         else:
